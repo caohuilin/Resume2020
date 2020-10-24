@@ -1,3 +1,8 @@
+@import "~typo.css/typo.css";
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
 html,
 body {
   padding: 0;
