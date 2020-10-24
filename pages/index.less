@@ -1,5 +1,17 @@
-@import '../styles/theme.less';
+@import "../styles/theme.less";
 
+.typo {
+  a {
+    color: @theme-color;
+    border-bottom: none;
+  }
+  @media print {
+    a {
+      color: @font-color;
+      border-bottom: 1px solid @font-color;
+    }
+  }
+}
 .resume {
   display: flex;
   height: 100vh;
@@ -8,8 +20,15 @@
     padding-left: 64px;
     padding-right: 60px;
     background-color: @theme-color-second;
+    ul {
+      margin: 0;
+      li {
+        font-weight: 400;
+        list-style: none;
+      }
+    }
   }
   .right {
-      flex: 1;
+    flex: 1;
   }
 }
