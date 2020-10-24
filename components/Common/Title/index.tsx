@@ -1,5 +1,16 @@
 import "./style.less";
 
-export default function Title(props: React.PropsWithChildren<{}>) {
-  return <h4 className="title">{props.children}</h4>;
+export enum ETitleType {
+  Default = "default",
+  Theme = "theme",
+}
+export default function Title(
+  props: React.PropsWithChildren<{ type: ETitleType }>
+) {
+  const { type = ETitleType.Default, children } = props;
+  return (
+    <h4 className={type === ETitleType.Theme ? "theme-title" : "title"}>
+      {children}
+    </h4>
+  );
 }
