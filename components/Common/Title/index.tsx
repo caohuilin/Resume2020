@@ -5,7 +5,7 @@ export enum ETitleType {
   Theme = "theme",
 }
 export default function Title(
-  props: React.PropsWithChildren<{ type: ETitleType }>
+  props: React.PropsWithChildren<{ type?: ETitleType }>
 ) {
   const { type = ETitleType.Default, children } = props;
   return (

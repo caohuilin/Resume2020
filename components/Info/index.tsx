@@ -44,14 +44,14 @@ export default function Info() {
           <Icon type={EIconType.Github} />
           <span>
             <a href="https://github.com/caohuilin">
-              https://github.com/caohuilin
+              caohuilin
             </a>
           </span>
         </li>
         <li>
           <Icon type={EIconType.Website} />
           <span>
-            <a href="https://caohuilin.com">https://caohuilin.com</a>
+            <a href="https://caohuilin.com">caohuilin.com</a>
           </span>
         </li>
       </ul>
