@@ -19,3 +19,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@media not print {
+  body {
+    background-color: #dddddd;
+    padding: 30px 0;
+  }
+}
+
