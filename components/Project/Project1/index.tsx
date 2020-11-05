@@ -1,6 +1,6 @@
-import Title, { ETitleType } from "../Common/Title";
-import Divider from "../Common/Divider";
-import SmallTitle from "../Common/SmallTitle";
+import Title, { ETitleType } from "../../Common/Title";
+import Divider from "../../Common/Divider";
+import SmallTitle from "../../Common/SmallTitle";
 
 import "./style.less";
 

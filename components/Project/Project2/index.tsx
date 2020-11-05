@@ -1,6 +1,6 @@
-import Title, { ETitleType } from "../Common/Title";
-import Divider from "../Common/Divider";
-import SmallTitle from "../Common/SmallTitle";
+import Title, { ETitleType } from "../../Common/Title";
+import Divider from "../../Common/Divider";
+import SmallTitle from "../../Common/SmallTitle";
 
 import "./style.less";
 
@@ -68,7 +68,8 @@ export default function Project() {
       <SmallTitle>
         <a href="https://www.npmjs.com/package/@qn-pandora/search-editor">
           @qn-pandora/search-editor
-        </a> 搜索框组件
+        </a>{" "}
+        搜索框组件
       </SmallTitle>
       <p>
         1. 封装平台搜索框逻辑，实现 SPL
