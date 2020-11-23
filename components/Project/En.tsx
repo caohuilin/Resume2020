@@ -50,7 +50,10 @@ export default function Project() {
       <SmallTitle>Application Platform Base Library</SmallTitle>
       <p>
         1.
-        <a href="https://www.npmjs.com/package/@qn-pandora/pandora-component">
+        <a
+          href="https://www.npmjs.com/package/@qn-pandora/pandora-component"
+          target="_blank"
+        >
           @qn-pandora/pandora-component
         </a>
         : Encapsulates based on Antd components to make their UI specifications
@@ -58,14 +61,20 @@ export default function Project() {
       </p>
       <p>
         2.
-        <a href="https://www.npmjs.com/package/@qn-pandora/pandora-app-component">
+        <a
+          href="https://www.npmjs.com/package/@qn-pandora/pandora-app-component"
+          target="_blank"
+        >
           @qn-pandora/pandora-app-component
         </a>
         : Encapsulating complex components in platform functionality.
       </p>
       <p>
         3.
-        <a href="https://www.npmjs.com/package/@qn-pandora/app-sdk">
+        <a
+          href="https://www.npmjs.com/package/@qn-pandora/app-sdk"
+          target="_blank"
+        >
           @qn-pandora/app-sdk
         </a>
         : complex logic (such as search) and tool functions in platform
@@ -73,7 +82,10 @@ export default function Project() {
       </p>
       <Divider />
       <SmallTitle>
-        <a href="https://www.npmjs.com/package/create-pandora-app">
+        <a
+          href="https://www.npmjs.com/package/create-pandora-app"
+          target="_blank"
+        >
           create-pandora-app
         </a>{" "}
         CLI Tool

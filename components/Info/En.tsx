@@ -7,7 +7,9 @@ import "./style.less";
 export default function Info() {
   return (
     <>
-      <Title><strong>Huilin Cao</strong></Title>
+      <Title>
+        <strong>Huilin Cao</strong>
+      </Title>
       <Divider />
       <ul className="info">
         <li>
@@ -37,7 +39,7 @@ export default function Info() {
         <li>
           <Icon type={EIconType.Github} />
           <span>
-            <a href="https://github.com/caohuilin">
+            <a href="https://github.com/caohuilin" target="_blank">
               caohuilin
             </a>
           </span>
@@ -45,7 +47,9 @@ export default function Info() {
         <li>
           <Icon type={EIconType.Website} />
           <span>
-            <a href="https://caohuilin.com">caohuilin.com</a>
+            <a href="https://caohuilin.com" target="_blank">
+              caohuilin.com
+            </a>
           </span>
         </li>
       </ul>

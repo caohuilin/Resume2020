@@ -30,28 +30,40 @@ export default function Project() {
       <SmallTitle>应用平台基础库封装</SmallTitle>
       <p>
         1.
-        <a href="https://www.npmjs.com/package/@qn-pandora/pandora-component">
+        <a
+          href="https://www.npmjs.com/package/@qn-pandora/pandora-component"
+          target="_blank"
+        >
           @qn-pandora/pandora-component
         </a>
         : 基于 Antd 组件进行封装，使其 UI 规范与平台一致。
       </p>
       <p>
         2.
-        <a href="https://www.npmjs.com/package/@qn-pandora/pandora-app-component">
+        <a
+          href="https://www.npmjs.com/package/@qn-pandora/pandora-app-component"
+          target="_blank"
+        >
           @qn-pandora/pandora-app-component
         </a>
         : 平台功能中复杂组件进行封装。
       </p>
       <p>
         3.
-        <a href="https://www.npmjs.com/package/@qn-pandora/app-sdk">
+        <a
+          href="https://www.npmjs.com/package/@qn-pandora/app-sdk"
+          target="_blank"
+        >
           @qn-pandora/app-sdk
         </a>
         : 平台功能中复杂逻辑(如: 搜索)、工具函数进行封装。
       </p>
       <Divider />
       <SmallTitle>
-        <a href="https://www.npmjs.com/package/create-pandora-app">
+        <a
+          href="https://www.npmjs.com/package/create-pandora-app"
+          target="_blank"
+        >
           create-pandora-app
         </a>{" "}
         CLI 工具
@@ -66,7 +78,10 @@ export default function Project() {
       </p>
       <Divider />
       <SmallTitle>
-        <a href="https://www.npmjs.com/package/@qn-pandora/search-editor">
+        <a
+          href="https://www.npmjs.com/package/@qn-pandora/search-editor"
+          target="_blank"
+        >
           @qn-pandora/search-editor
         </a>{" "}
         搜索框组件
