@@ -7,19 +7,13 @@ import "./style.less";
 export default function Info() {
   return (
     <>
-      <Title>Info</Title>
+      <Title><strong>Huilin Cao</strong></Title>
       <Divider />
       <ul className="info">
         <li>
           <Icon type={EIconType.Flag} />
           <span>
             <strong>Front-end Engineer</strong>
-          </span>
-        </li>
-        <li>
-          <Icon type={EIconType.Info} />
-          <span>
-            Belinda Cao | 1995 | <strong>Shanghai</strong>
           </span>
         </li>
         <li>
@@ -30,7 +24,7 @@ export default function Info() {
         </li>
         <li>
           <Icon type={EIconType.WeiChat} />
-          <span>1057275848</span>
+          <span>caohuilin9588</span>
         </li>
         <li>
           <Icon type={EIconType.Email} />
@@ -38,7 +32,7 @@ export default function Info() {
         </li>
         <li>
           <Icon type={EIconType.Education} />
-          <span>June 2017 | 4 Years Exp</span>
+          <span>June 2017 | HNUST</span>
         </li>
         <li>
           <Icon type={EIconType.Github} />

@@ -30,7 +30,7 @@ export default function Info() {
         </li>
         <li>
           <Icon type={EIconType.WeiChat} />
-          <span>1057275848</span>
+          <span>caohuilin9588</span>
         </li>
         <li>
           <Icon type={EIconType.Email} />

@@ -12,7 +12,7 @@ export default function Experience() {
           <h5>QINIU - Pandora</h5>
           <p>2017.12 ~ now</p>
           <p><strong>Head of Front-end Team</strong></p>
-          <p>Pandora Products</p>
+          <p>Pandora Product</p>
           <p>Visualization System</p>
           <p>Open Application Platform</p>
         </li>
@@ -22,7 +22,7 @@ export default function Experience() {
           <p><strong>Star Employee</strong></p>
           <p>Blockchain Plus Product</p>
           <p>USD Trading System</p>
-          <p>Promote TypeScript</p>
+          <p>Implement TypeScript</p>
         </li>
       </ul>
       <Divider />

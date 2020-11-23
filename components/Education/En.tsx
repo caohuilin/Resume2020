@@ -8,6 +8,7 @@ export default function Education() {
         <li>HNUST</li>
         <li>Bachelor of Internet of Things</li>
         <li>2013.09 ~ 2017.06</li>
+        <li>GPA 3.7 / 4.0</li>
       </ul>
     </>
   );
