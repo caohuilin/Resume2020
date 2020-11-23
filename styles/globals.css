@@ -27,3 +27,10 @@ a {
   }
 }
 
+@media screen and (max-width: 680px) {
+  body {
+    background-color: #ffffff;
+    padding: 0;
+  }
+}
+
