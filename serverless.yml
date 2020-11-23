@@ -1,5 +1,5 @@
 component: website # (必填) 引用 component 的名称，当前用到的是 tencent-website 组件
-name: resume-hk # (必填) 该 website 组件创建的实例名称
+name: resume # (必填) 该 website 组件创建的实例名称
 stage: prod # (可选) 用于区分环境信息，默认值是 dev
 
 inputs:
@@ -7,9 +7,9 @@ inputs:
     root: ./
     src: ./
     dist: ./out
-    hook: npm run export
+    hook: npm run build && npm run export
     index: index.html
     websitePath: ./
-  region: ap-hongkong
-  bucketName: caohuilin-resume-hk
+  region: ap-shanghai
+  bucketName: caohuilin-resume
   protocol: http

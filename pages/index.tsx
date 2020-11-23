@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Head from "next/head";
 import Info from "../components/Info";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
@@ -30,7 +30,7 @@ export default function Resume() {
       <Page className="page-2">
         <Project2 />
       </Page>
-      <Download />
+      <Download language="zh" />
     </div>
   );
 }
