@@ -5,6 +5,7 @@ import Experience from "../components/Experience/En";
 import Page from "../components/Common/Page";
 import Skills from "../components/Skills/En";
 import Project from "../components/Project/En";
+import Download from "../components/Download";
 
 import "./index.less";
 
@@ -27,6 +28,7 @@ export default function Resume() {
       <Page className="page-2">
         <Project />
       </Page>
+      <Download language="en"/>
     </div>
   );
 }

@@ -1,0 +1,31 @@
+@import "../../styles/theme.less";
+
+.download {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  font-size: 12px;
+  font-weight: 500;
+  transform: translateY(-50%);
+  background: @theme-color-second;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 3px 3px 3px #999999;
+  cursor: pointer;
+  a {
+    color: @theme-color;
+    &:hover {
+      color: @theme-color;
+    }
+  }
+}
+
+@media print {
+  .download {
+    display: none;
+  }
+}
