@@ -1,11 +1,11 @@
-import Head from 'next/head'
+import Head from "next/head";
 import Info from "../components/Info/En";
 import Education from "../components/Education/En";
 import Experience from "../components/Experience/En";
 import Page from "../components/Common/Page";
 import Skills from "../components/Skills/En";
 import Project from "../components/Project/En";
-import Download from "../components/Download";
+import Download from "../components/Download/En";
 
 import "./index.less";
 
@@ -28,7 +28,7 @@ export default function Resume() {
       <Page className="page-2">
         <Project />
       </Page>
-      <Download language="en"/>
+      <Download />
     </div>
   );
 }

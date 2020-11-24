@@ -30,7 +30,7 @@ export default function Resume() {
       <Page className="page-2">
         <Project2 />
       </Page>
-      <Download language="zh" />
+      <Download />
       <div className="version">version: v2020.11.23.2</div>
     </div>
   );
