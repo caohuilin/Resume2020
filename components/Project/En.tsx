@@ -19,18 +19,18 @@ export default function Project() {
         functions.
       </p>
       <p>
-        3. Providing draggable multi-theme dashboard with drill down and
+        3. Providing draggable multi-theme dashboard with drill-down and
         template variables features.
       </p>
       <Divider />
       <SmallTitle>Open Application Platform</SmallTitle>
       <p>
-        1. Providing customized XML tag for third party developers to implement
+        1. Providing customized XML tags for third-party developers to implement
         their features.
       </p>
       <p>
-        2. Providing platform standard for customized third party component,
-        such as chart, part or all of pages.
+        2. Providing platform standards for customized third-party component,
+        such as chart, and part or all of the page.
       </p>
       <Divider />
       <SmallTitle>Application Platform Base Library</SmallTitle>
@@ -76,7 +76,7 @@ export default function Project() {
       </SmallTitle>
       <p>
         Providing multiple project creation templates, which features like local
-        dev, testing, previewing, and etc.
+        dev, testing, previewing, etc.
       </p>
       <Divider />
       <SmallTitle>
@@ -90,7 +90,7 @@ export default function Project() {
       </SmallTitle>
       <p>
         Providing search component with SPL keyword highlighting, suggesting,
-        and grammer checking features.
+        and grammar checking features.
       </p>
     </div>
   );

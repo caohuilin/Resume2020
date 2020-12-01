@@ -15,8 +15,8 @@ export default function Experience() {
             <strong>Head of Front-end Team</strong>
           </p>
           <p>responsible for Pandora Product developing</p>
-          <p>responsible for contruction of Visual System</p>
-          <p>responsible for contrction of Open Application Platform</p>
+          <p>responsible for the construction of Visual System</p>
+          <p>responsible for the construction of Open Application Platform</p>
         </li>
         <li>
           <h5>BTCC</h5>
@@ -31,10 +31,11 @@ export default function Experience() {
             responsible for USD Trading System front-end developing and
             maintenance
           </p>
-          <p>responsible for promoting the usage of TypeScript companywidely</p>
+          <p>
+            responsible for promoting the usage of TypeScript company widely
+          </p>
         </li>
       </ul>
-      {/* <Divider /> */}
     </>
   );
 }
