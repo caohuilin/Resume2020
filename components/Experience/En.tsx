@@ -25,10 +25,10 @@ export default function Experience() {
             <strong>Star Employee</strong>
           </p>
           <p>
-            responsible for Blockchain Plus Product developing and maintenance
+            responsible for Blockchain Plus Product development and maintenance
           </p>
           <p>
-            responsible for USD Trading System front-end developing and
+            responsible for USD Trading System front-end development and
             maintenance
           </p>
           <p>

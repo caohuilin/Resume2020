@@ -29,8 +29,8 @@ export default function Project() {
         their features.
       </p>
       <p>
-        2. Providing platform standards for customized third-party component,
-        such as chart, and part or all of the page.
+        2. Providing platform standards for customized third-party components,
+        such as the chart, and part or all of the page.
       </p>
       <Divider />
       <SmallTitle>Application Platform Base Library</SmallTitle>
@@ -89,7 +89,7 @@ export default function Project() {
         search component
       </SmallTitle>
       <p>
-        Providing search component with SPL keyword highlighting, suggesting,
+        Providing a search component with SPL keyword highlighting, suggesting,
         and grammar checking features.
       </p>
     </div>
