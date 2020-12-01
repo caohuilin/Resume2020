@@ -10,7 +10,8 @@ import Download from "../components/Download";
 
 import "./index.less";
 
-export default function Resume() {
+export default function Resume(props: { showDownload?: boolean }) {
+  const { showDownload = true } = props;
   return (
     <div className="typo resume">
       <Head>
@@ -30,8 +31,8 @@ export default function Resume() {
       <Page className="page-2">
         <Project2 />
       </Page>
-      <Download />
-      <div className="version">version: v2020.11.23.2</div>
+      {showDownload && <Download />}
+      <div className="version">version: v2020.12.01</div>
     </div>
   );
 }

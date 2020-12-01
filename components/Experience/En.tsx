@@ -11,21 +11,30 @@ export default function Experience() {
         <li>
           <h5>QINIU - Pandora</h5>
           <p>2017.12 ~ now</p>
-          <p><strong>Head of Front-end Team</strong></p>
-          <p>Pandora Product</p>
-          <p>Visualization System</p>
-          <p>Open Application Platform</p>
+          <p>
+            <strong>Head of Front-end Team</strong>
+          </p>
+          <p>responsible for Pandora Product developing</p>
+          <p>responsible for contruction of Visual System</p>
+          <p>responsible for contrction of Open Application Platform</p>
         </li>
         <li>
           <h5>BTCC</h5>
           <p>2016.06 ~ 2017.12</p>
-          <p><strong>Star Employee</strong></p>
-          <p>Blockchain Plus Product</p>
-          <p>USD Trading System</p>
-          <p>Implement TypeScript</p>
+          <p>
+            <strong>Star Employee</strong>
+          </p>
+          <p>
+            responsible for Blockchain Plus Product developing and maintenance
+          </p>
+          <p>
+            responsible for USD Trading System front-end developing and
+            maintenance
+          </p>
+          <p>responsible for promoting the usage of TypeScript companywidely</p>
         </li>
       </ul>
-      <Divider />
+      {/* <Divider /> */}
     </>
   );
 }

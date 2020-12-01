@@ -11,40 +11,26 @@ export default function Project() {
       <Divider />
       <SmallTitle>Visualization System</SmallTitle>
       <p>
-        1. Based on ECharts encapsulation platform style chart library, its
-        complex json configuration is packaged into an easy-to-use UI
-        configuration.
+        1. Providing unified style chart components using ECharts with UI
+        configurations.
       </p>
       <p>
-        2. Combined with the platform search function, it realizes automatic
-        identification of groups, indicators and other information to predict
-        user expectation chart display.
+        2. Providing chart data customization using platform searching
+        functions.
       </p>
       <p>
-        3. Realize drag-and-drop, multi-theme dashboard, support chart linkage
-        through chart drilling, template variables, etc.
+        3. Providing draggable multi-theme dashboard with drill down and
+        template variables features.
       </p>
       <Divider />
       <SmallTitle>Open Application Platform</SmallTitle>
       <p>
-        1. Customize XML template language, realize XML automatic rendering as
-        React components, encapsulate complex functions such as platform
-        visualization, and facilitate users to assemble components according to
-        their own needs.
+        1. Providing customized XML tag for third party developers to implement
+        their features.
       </p>
       <p>
-        2. Support custom visualization, realize a set of chart rendering life
-        cycle rules, and dynamically load user-defined chart rendering logic to
-        the platform through plug-in.
-      </p>
-      <p>
-        3. Support custom components to load external JS files that meet AMD
-        specifications to the platform, and realize page partial customization.
-      </p>
-      <p>
-        4. Support custom page, dynamic loading of user-defined applications
-        through the way of iframe, to achieve the communication between the
-        platform and the application routing, prompt information and so on.
+        2. Providing platform standard for customized third party component,
+        such as chart, part or all of pages.
       </p>
       <Divider />
       <SmallTitle>Application Platform Base Library</SmallTitle>
@@ -56,8 +42,7 @@ export default function Project() {
         >
           @qn-pandora/pandora-component
         </a>
-        : Encapsulates based on Antd components to make their UI specifications
-        consistent with the platform.
+        : Providing unified style base components.
       </p>
       <p>
         2.
@@ -67,7 +52,7 @@ export default function Project() {
         >
           @qn-pandora/pandora-app-component
         </a>
-        : Encapsulating complex components in platform functionality.
+        : Providing customized complex components.
       </p>
       <p>
         3.
@@ -77,8 +62,7 @@ export default function Project() {
         >
           @qn-pandora/app-sdk
         </a>
-        : complex logic (such as search) and tool functions in platform
-        functions are encapsulated.
+        : Providing complex logic (such as search) and tool functions.
       </p>
       <Divider />
       <SmallTitle>
@@ -91,14 +75,22 @@ export default function Project() {
         CLI Tool
       </SmallTitle>
       <p>
-        1. Create application platform various types of application template CLI
-        tools, oclif command and yeoman generator combined to achieve.
+        Providing multiple project creation templates, which features like local
+        dev, testing, previewing, and etc.
       </p>
+      <Divider />
+      <SmallTitle>
+        <a
+          href="https://www.npmjs.com/package/@qn-pandora/search-editor"
+          target="_blank"
+        >
+          @qn-pandora/search-editor
+        </a>{" "}
+        search component
+      </SmallTitle>
       <p>
-        2. Organize the scaffolding of various types of applications on the
-        application platform, and support the functions of local development,
-        joint adjustment, viewing effect and automatic packaging of
-        applications.
+        Providing search component with SPL keyword highlighting, suggesting,
+        and grammer checking features.
       </p>
     </div>
   );

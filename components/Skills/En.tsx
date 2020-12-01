@@ -15,53 +15,57 @@ export default function Skills() {
       <ul className="skills">
         <li>
           <SkillTitle>HTML / CSS</SkillTitle>
-          <p>1. Proficient in HTML5 and CSS3.</p>
-          <p>2. Experience in developing style components with LESS.</p>
+          <p>1. Capable in writing semantic HTML, modulized CSS.</p>
           <p>
-            3. Worked on modern browsers like Google Chrome. Understand the
-            principle of browser.
+            2. Capable in constructing complex layout using Flexbox and complex
+            animation using CSS3.
+          </p>
+          <p>3. Capable in effectively writing CSS using LESS.</p>
+          <p>
+            4. Understanding DOM loading and rendering mechanism in modern
+            browsers like Google Chrome.
           </p>
         </li>
         <li>
           <SkillTitle>TypeScript / JavaScript</SkillTitle>
-          <p>1. Excellent hands on experience in JavaScript.</p>
-          <p>2. Implement Front-End features with TypeScript / JavaScript.</p>
-          <p>
-            3. Stay updated on latest JavaScript practices following TypeScript,
-            ESNext.
-          </p>
+          <p>1. Familiar with TypeScript and its tool in CI/CD process.</p>
+          <p>2. Understanding advance type in TypeScript.</p>
+          {/* <p>3. Understanding fundamental concept of JavaScript.</p> */}
+          {/* <p>4. Skilled in ESNext.</p> */}
         </li>
         <li>
           <SkillTitle>React / Mobx</SkillTitle>
-          <p>1. Worked on React components, Forms, Events, Keys, Router, Animations.</p>
           <p>
-            2. Extensive knowledge in developing single - page applications
-            (SPAs).
+            1. Capable in constructing single-page application using React and
+            Mobx.
           </p>
-          <p>
-            3. Experience with modern build tool chains, like JavaScript
-            frameworks/technologies such as React, MobX.
-          </p>
-          <p>4. Extensive working experience with Axios, Lodash, and Next.js.</p>
+          <p>2. Skilled in using React Hooks.</p>
         </li>
         <li>
           <SkillTitle>Webpack / Rollup / Lerna</SkillTitle>
           <p>
-            1. Experience in using Webpack as module bundler and performing the vast majority of the tasks.
+            1. Capable in packing project using Webpack and understanding its
+            principle.
           </p>
-          <p>2. Experience in Lerna tools that optimizes the workflow around managing multi-package repositories. </p>
+          <p>2. Capable in optimizing Webpack packing performance.</p>
+          <p>3. Understanding process and mechanism of Rollup.</p>
+          <p>
+            3. Understanding Lerna, a tool managing multi-package repositories
+            with git and npm.
+          </p>
         </li>
         <li>
           <SkillTitle>Engineering</SkillTitle>
           <p>
-            1. Involved in all the stages of Software Development Life Cycle including Requirements, Analysis and Design, Implementation, Integration and Testing, Deployment and Maintenance.
+            1. Experienced in all the stages of Software Development Life Cycle
+            including Requirements, Analysis and Design, Implementation,
+            Integration and Testing, Deployment and Maintenance.
           </p>
           <p>
-            2. Worked on version control tools such as Git, integration tools like Jenkins, bug tracking tools like JIRA.
+            2. Familiar with version control tools such as Git, integration
+            tools like Jenkins, bug tracking tools like JIRA.
           </p>
-          <p>
-            3. Developed the unit testing scripts using Jest for testing the React components using Enzyme and react-test-renderer.
-          </p>
+          <p>3. Skilled in using Jest and all sorts of testing technics.</p>
         </li>
       </ul>
     </>
