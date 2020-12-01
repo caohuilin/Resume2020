@@ -10,7 +10,7 @@ import "./index.less";
 
 export default function Resume() {
   return (
-    <>
+    <div className="typo resume">
       <Page className="page-1">
         <div className="left">
           <Info />
@@ -25,6 +25,6 @@ export default function Resume() {
       <Page className="page-2">
         <Project2 />
       </Page>
-    </>
+    </div>
   );
 }
