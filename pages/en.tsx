@@ -6,7 +6,7 @@ import Page from "../components/Common/Page";
 import Skills from "../components/Skills/En";
 import Project from "../components/Project/En";
 import Download from "../components/Download/En";
-import Zh from "./index";
+import Zh from "./zh";
 
 import "./index.less";
 
@@ -33,7 +33,7 @@ export default function Resume() {
         <Download />
       </div>
       <div>
-        <Zh showDownload={false} />
+        <Zh />
       </div>
     </>
   );
